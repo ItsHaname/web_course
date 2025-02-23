@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP HTML</title>
+    <link rel="stylesheet" href="form.css">
+    
+</head>
+<body>
+    <h1>Fill it up"butterfly"</h1>
+   <form action="fichier.php" method="post">
+    <fieldset >
+
+        <legend>Personal Information:</legend>
+        <br>
+       <label for="name">Name:</label>
+       <input type="text" id="name" name="name" required>
+       <br><br><br>
+       <label for="email">Email:</label>
+         <input type="email" id="email" name="email" required>
+         <br><br><br>
+         </fieldset>
+         <fieldset classe="second">
+            <legend>Votre avis</legend>
+            <br><br>
+            <label for="avis">Comment avez-vous entendu parler de nous ?</label>
+            <select name="avis" id="avis">
+                <option value="google">Google</option>
+                <option value="amis">Amis</option>
+                <option value="anonce">Annonce</option>
+                <option value="autre">Autre</option>
+            </select>
+            <br><br><br>
+            <label for="rdv">Est-ce que vous reviendrer ?</label> <br><br>
+            <input type="radio" name="rdv" value="oui" id="rdv">Oui 
+            <input type="radio" name="rdv" value="non">Non
+            <input type="radio" name="rdv" value="peut être">Peut être 
+            <br><br>
+            <label for="commentaire">Commentaire</label><br>
+            <textarea name="commentaire" id="commentaire" cols="30" rows="10"></textarea>
+
+            <br><br><br>
+            <input type="checkbox" name="mailling" id="mailling" checked>Inscrivez-moi pour recevoir des informations sur nos produits <br>
+            <br>
+            <input type="submit" value="Envoyer">
+         </fieldset>
+         </form>
+         
+</body>
+</html>
