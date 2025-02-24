@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url("pic1.jpeg");
+   background-color:black
 
 }
 h1{
@@ -21,7 +21,8 @@ fieldset {
     background-image: url("pic2.jpeg");
     background-size: cover; 
     background-repeat: no-repeat;
-    border-radius: 10px;}
+    border-radius: 10px;
+    opacity: 0.9; }
 
 legend{
     color:white;
@@ -32,10 +33,13 @@ legend{
     background-color:#654321
 }
 form {
+    background-image: url("pic1.jpeg");
     font-size: 20px;
     font-weight: bold;
     font-style: italic;
-    width:100%;
+    width:80%;
+    margin: auto;
+    margin-top: 50px;
 
 }
 
