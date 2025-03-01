@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/***************Header***************/
+header h1 {
+    text-align: center;
+}
+
+header nav {
+    background-color: purple;
+    padding: 15px;
+    box-shadow: 0 0 10px #000;
+    position: sticky;
+    margin-left: 10px;
+}
+
+header li {
+    display: inline;
+    align-items: space-between;
+}
+
+header ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 10px;
+}
+
+header li a {
+    color: white;
+    text-decoration: none;
+    align-items: space-between;
+    margin: 10px;
+}
+
+header li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+/**************section1**************/
+.yahya {
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+    height: 400px;
+}
+
+.yahya h2 {
+    color: purple;
+    font-size: 20px;
+    text-align: center;
+}
+
+.yahya img {
+    text-align: left;
+}
+
+.yahya img[alt="photo de profil"] {
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+}
+
+.yahya p {
+    float: left;
+    width: 70%;
+}
+
+.yahya img[alt="twitter"],
+img[alt="youtube"],
+img[alt="instagrame"] {
+    float: right;
+    margin-left: 10px;
+    width: 40px;
+}
+
+/**************section2**************/
+.formations {
+    background-color: rgb(129, 219, 136);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+    height: 500px;
+}
+
+.formations h2 {
+    background-color: #f1f1f1;
+    padding: 20px;
+    color: purple;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 20px;
+    margin: 0;
+}
+
+.formations ul {
+    float: left;
+    width: 60%;
+}
+
+
+
+.formations img {
+    float: right;
+    width: 20%;
+}
+
+/**************section3**************/
+.experiences {
+    background-color: rgb(230, 135, 25);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+    height: 400px;
+}
+
+.experiences h2 {
+    background-color: #f1f1f1;
+    padding: 20px;
+    color: purple;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 20px;
+    margin: 0;
+}
+
+.experiences ul {
+    float: left;
+    width: 60%;
+}
+
+.experiences img {
+    float: right;
+    width: 30%;
+}
+
+/************section4************/
+.loisirs {
+    background-color: rgb(255, 209, 100);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+    height: 300px;
+}
+
+.loisirs h2 {
+    background-color: #f1f1f1;
+    padding: 20px;
+    color: purple;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 20px;
+    margin: 0;
+}
+
+.loisirs img {
+    float: right;
+    width: 20%;
+}
+
+.cantactez-moi {
+    background-color: rgb(128, 100, 236);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+    height: 540px;
+    
+}
+
+.cantactez-moi h2 {
+    background-color: #f1f1f1;
+    padding: 20px;
+    color: purple;
+    border-radius: 10px 0;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.cantactez-moi input{
+    width: 90%;
+    padding: 6px;
+    margin: 10px 0;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 20px;
+    
+    
+   
+}
+
+.cantactez-moi textarea{
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    height: 100px;
+}
+
+.cantactez-moi button{
+    width: 100%;
+    padding: 10px;
+   margin-bottom: 0px;
+    border: none;
+    border-radius: 5px;
+    background-color: purple;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+form{
+    width: 50%;
+    margin: 0 auto;
+}
+footer{
+    background-color: purple;
+    padding: 40px;
+    box-shadow: 0 0 10px #000;
+    position: sticky;
+    margin-left: 10px;
+    text-align: center;
+    color: white;
+    position:relative;
+}
+
+footer p{
+    margin: 0;
+    font-weight: bold;
+}
